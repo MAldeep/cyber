@@ -2,10 +2,10 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import SearchBar from "../SearchBar/SearchBar";
 import "./Filter.css"
 
-export default function Filter({className}) {
+export default function Filter() {
   const categories = ["smartphones", "laptops", "skincare", "sunglasses"];
   return (
-    <div className={className} id="accordionExample">
+    <div className="filter accordion border border-0 col-12 col-md-3" id="accordionExample">
       <div className="accordion-item">
         <h2 className="accordion-header">
           <button
